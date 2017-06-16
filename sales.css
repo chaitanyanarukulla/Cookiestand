@@ -1,3 +1,13 @@
+
+body{
+  background-image: url(chinook.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Merienda', cursive;
+    opacity: .8;
+
+}
+
 td,tr {
   border: 2px solid black;
   border-collapse: collapse;
@@ -35,6 +45,8 @@ label{
 button{
   font-size: 17px;
   background-color:#81D2C7;
+  background-image: url(salmon.png);
+  background-size: contain;
   border-radius: 13px;
   border: solid black;
    }
@@ -44,13 +56,14 @@ button:hover {
     color: red;
   }
 
-fieldset{
-    height: auto;
-  }
-
 form{
     background: #B5BAD0;
   border-radius: 15px;
   padding: 0px;
 
+
+
+  }
+  h1{
+font-size:60px;
   }
