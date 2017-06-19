@@ -1,18 +1,121 @@
-body {
-background-image: url("salmon.png") ;
- background-repeat: no-repeat;
- background-size: cover;
+/* Resetting the HTML
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
+/* Css Rendering */
 
-ul {
-  background-color: #4CAF50;
-  opacity: .7;
+body{
+  background-color:  #B5BAD0;
+  font-family: 'Lobster', cursive;
 }
-
-li {
-  border: 2px solid black;
+header{
+  background-color: #81D2C7;
+  width: 100%;
+  margin-bottom: 25px;
+}
+header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.logo{
+  float: left;
+  border-radius: 10px;
+}
+ ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav > ul > li{
+  background-color: black;
+opacity: .7;
+width: 150px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  padding: 10px;
-display: block;
+  float: left;
+  margin-top: 13px;
+margin-right: 2px;
+
 }
+ ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+  nav>ul>li>a:hover{
+   color:white;
+ }
+nav>ul >li >ul >li  {
+  display: none;
+  background-color: black;
+color: white;
+margin-top: 2px;
+}
+ ul li:hover ul li {
+  display:block;
+}
+.inner{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+main{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 25px;
+}
+.sub-banners li {
+  display:inline-block;
+  margin-right:25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.left{
+  display: block;
+  float: left;
+  width: 50%;
+  border-radius: 5px;
+}
+.right{
+  width:46%;
+  float:left;
+  overflow:scroll;
+  margin-right:15px;
+  max-height: 400px;
+}
+.bottom{
+  padding-bottom: 25px;
+}
+
+
+footer{ clear: both;
+  background-color: #81D2C7;
+  width: 100%;
+  height: 100px;
+margin-top: 20px;
+}
+#heading{
+  font-size: 22px;
+}
+/*.space{
+  font-family: 'Roboto Condensed', sans-serif;
+}*/

@@ -118,9 +118,9 @@ function handelSubmision(event){
 var newLocation = document.getElementById('newLocations');
 var pike = new Store('Pike Place market', 23, 65, 6.3);
 var seatac = new Store('SeaTac Airport', 3, 24, 1.2);
-var seattleCenter = new Store('seattleCenter', 11, 38, 1.2);
+var seattleCenter = new Store('SeattleCenter', 11, 38, 1.2);
 var captiolhill = new Store('CapitolHill', 20, 38, 2.3);
-var alki = new Store('Alik', 2, 16, 4.6);
+var alki = new Store('Alki', 2, 16, 4.6);
 renderH();
 renderAllstore();
 renderF();
